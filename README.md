@@ -25,10 +25,10 @@ Prepare Data
   mkdir -p data/train
   mkdir -p data/val
   mkdir -p data/test
-  ln -s /path_to_coco_data/annotations
-  ln -s /path_to_coco_data/train
-  ln -s /path_to_coco_data/val
-  ln -s /path_to_coco_data/test
+  ln -s /path_to_data/annotations
+  ln -s /path_to_data/train
+  ln -s /path_to_data/val
+  ln -s /path_to_data/test
 ```
 
 
