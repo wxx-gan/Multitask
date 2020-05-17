@@ -22,21 +22,22 @@ Install
 Prepare Data
 ----------------
 ```bash
-  mkdir -p data/train
-  mkdir -p data/val
-  mkdir -p data/test
-  ln -s /path_to_data/annotations
-  ln -s /path_to_data/train
-  ln -s /path_to_data/val
-  ln -s /path_to_data/test
+mkdir -p data/annotations
+mkdir -p data/train
+mkdir -p data/val
+mkdir -p data/test
+ln -s /path_to_data/annotations
+ln -s /path_to_data/train
+ln -s /path_to_data/val
+ln -s /path_to_data/test
 ```
 
 
 Model weights
 ---------------
 ```bash
-  mkdir weights
-  #The pretrained models will be downloaded when running the program.
+mkdir weights
+#The pretrained models will be downloaded when running the program.
 ```
 My training log and pre-trained models can be found here [link](https://github.com/matterport/Mask_RCNN/releases) or [link](https://pan.baidu.com/s/1IAjp7_ZP3-3jLpThf7WLbQ)(pw:arn3).
 
